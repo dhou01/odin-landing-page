@@ -102,7 +102,35 @@ color palette
 
 
 .box-two {
-    background-color: #8E96AA;
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 48px;
+    gap: 32px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 32px;
+
+}
+
+.container-quote {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+
+.main-quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-name {
+    /* display: flex; */
+    background-color: aquamarine;
 }
 
 .box-three {
