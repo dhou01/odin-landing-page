@@ -14,14 +14,21 @@ body {
 }
 
 .header {
-    width: auto;
     font-size: 24px;
     color: #F9FAF8;
-    height: auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 32px;
+}
+
+.footer {
+    display: flex;
+    color: white;
+    background-color: #37466D;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
 
 .nav-bar, .secondary-text {
@@ -41,27 +48,17 @@ body {
 }
 
 .container-hero {
-    width: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap:12px;
-}
-
-.footer {
-    display: flex;
-    color: white;
-    background-color: #37466D;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
+    gap: 32px;
 }
 
 .main-info {
     max-width: 500px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
 }
 
@@ -71,15 +68,23 @@ body {
     color: #F9FAF8;
 }
 
-.box-one {
-    background-color: white;
+.hero-img {
     display: flex;
-    padding: 48px;
-    gap: 32px;
+    align-items: center;
+}
+
+.box-one, .box-two, .box-three {
+    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin-bottom: 32px;
+}
+
+.box-one {
+    background-color: white;
+    padding: 48px;
+    gap: 32px;
+
 }
 
 .box-one-cards-container {
@@ -96,7 +101,6 @@ body {
 }
 
 .card-subtext {
-    flex: 1;
     display: flex;
     flex-wrap: wrap;
     font-size: 14px;
@@ -105,13 +109,8 @@ body {
 
 .box-two {
     background-color: #E5E7EB;
-    display: flex;
     padding: 48px;
     gap: 32px;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 32px;
-
 }
 
 .container-quote {
@@ -135,11 +134,7 @@ body {
 
 .box-three {
     background-color: white;
-    display: flex;
     padding: 60px;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 32px;
 }
 
 .modal {
@@ -189,11 +184,6 @@ button {
 img {
     width: auto;
     height: 300px;
-}
-
-.hero-img {
-    display: flex;
-    align-items: center;
 }
 
 .cards {
